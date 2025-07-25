@@ -40,9 +40,10 @@ You'll also need an emoji dump
 ### Python
 
 To run this script, you need to have Python installed. If you don't have it, please [download](https://www.python.org/downloads/) the latest version.
-There are libraries needed. See the Pipfile for what's needed.
+There are libraries needed. You can install them using [`poetry`](https://python-poetry.org/) (or manually using `pip`).
+
 ```bash
-pipenv install
+poetry install
 ```
 
 ## Usage
